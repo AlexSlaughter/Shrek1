@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--el head del programa-->  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrek</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!--el body del programa-->
+<body>
+<!--el titul descriptiu-->
+    <header>
+        <h1>Shrek</h1>
+        <p>Shrek, un ogre verd, cínic, maliciós i amb mal humor permanent.</p>
+    </header>
+<!--El index enllaçat-->
+    <nav>
+        <ul>
+            <li><a href="#sinopsi">Sinopsi</a></li>
+            <li><a href="#personatges">Personatges Principals</a></li>
+            <li><a href="#produccio">Producció</a></li>
+            <li><a href="#fotografies">Fotografies</a></li>
+            <li><a href="#opinio">Opinio</a></li>
+            <li><a href="#webs">Webs</a></li>
+        </ul>
+    </nav>
+<!--Una seccio amb la sinopsi-->
+    <section id="sinopsi">
+        <h2>Sinopsi</h2>
+        <p>
+            Shrek, un ogre verd, cínic, maliciós i amb mal humor permanent, viu en un pantà que sembla ser un recés de pau. 
+            Un matí, mentre s'endreça, descobreix a unes criatures irritants que han ocupat el seu pantà, 
+            la qual cosa li incomoda bastant, per la qual cosa decidirà acabar amb aquesta pertorbació com més aviat millor..</p>
+    </section>
+<!--Una altre seccio amb la llista que te una subllista dels personatges principals, els noms estan ellaçats amb el apartat correspondent-->
+    <section id="personatges">
+        <h2>Personatges Principals</h2>
+        <ul>
+            
+                <li><a href="#personaje1">Shrek</a>
+                    <ul>
+                        <li>Personalitat: valent, independent</li>
+                    </ul>
+                </li>
+                <li><a href="#personaje2">Fiona</a>
+                    <ul>
+                        <li>Personalitat: forta, empàtica</li>
+                    </ul>
+                </li>
+                <li><a href="#personaje3">Asno</a>
+                    <ul>
+                        <li>Personalitat: simpàtic, poc intel·ligent</li>
+                    </ul>
+                </li>
+                <li><a href="#personaje4">Lord Farquaad</a>
+                    <ul>
+                        <li>Personalitat: autoritari, egoista</li>
+                    </ul>
+                </li>
+        </ul>
+        <!--Diferents articles de cada personatge, li assignem un ID perque despres els podem enllaçar amb ells.-->
+        <article id="personaje1">
+            <h3>Shrek</h3>
+            <p>Shrek viu només en el seu pantà/pantà enmig del bosc. Al principi, sembla que li agrada estar sol i 
+                gaudeix espantar a la gent, però sense danyar-los. Encara que es desconeix l'origen, se suposa que 
+                la majoria dels ogres danyen a les persones, però Shrek no és violent és un heroi.</p>
+            <img src="personaje1.jpg" alt="personaje1">
+        </article>
+        <article id="personaje2">
+            <h3>Fiona</h3>
+            <p>Fiona es trobava sota una maledicció en la qual s'establia la norma en la qual entre l'alba i l'ocàs 
+                tindria l'aparença d'una humana i en les nits tindria l'aparença d'una ogre . Aquesta maledicció només 
+                es trencaria en fer el seu primer petó d'amor veritable..</p>
+            <img src="personaje2.jpg" alt="personaje2">
+        </article>
+        <article id="personaje3">
+            <h3>Asno</h3>
+            <p>
+                La seva història comença quan Ase estava a punt de ser venut per una anciana als homes del senyor feudal 
+                del regne Duloc, Lord Farquaad que buscaven criatures sobrenaturals per a tancar-los. Segons sembla, procedia 
+                d'una granja desconeguda on residia al costat d'aquesta anciana. </p>
+                <p>
+                Per sort, va aconseguir escapar i mentre fugia d'uns guàrdies, es va trobar amb Shrek, qui el va ajudar a 
+                deslliurar-se dels soldats que li perseguien..</p>
+            <img src="personaje3.jpg" alt="personaje3">
+        </article>
+        <article id="personaje4">
+            <h3>Lord Farquaad</h3>
+            <p>
+                Farquaad és un príncep de molt baixa alçada i despietat. Diverses vegades en la pel·lícula es comenta que ell compensa l'altura 
+                del seu regne amb la seva baixa alçada. També es fan bromes en doble sentit, insinuant que el baix no és només la seva alçada.</p>
+            <img src="personaje4.jpg" alt="personaje4">
+        </article>
+    </section>
+
+    <section id="produccio">
+        <h2>Producció</h2>
+        <p>
+            La idea d'una pel·lícula basada en el llibre original Shrek! va ser pensada per primera vegada per Steven Speilberg, qui abans de la fundació de 
+            DreamWorks va comprar els drets per a la pel·lícula en 1991. Es pretenia que la pel·lícula fos animada tradicionalment i tindria per a les veus 
+            originals en anglès .Quan DreamWorks va ser fundada en 1994, el productor John H. Williams va portar el llibre a la companyia, i després que DreamWorks 
+            va comprar els drets en 1995, el projecte per a la pel·lícula es va posar en desenvolupament actiu.</p>
+    </section>
+    <!--Diferents fotografies i un trailer-->
+    <section id="fotografies">
+        <h2>Fotografies</h2>
+        <img src="foto1.jpg" alt="foto1">
+        <img src="foto2.jpg" alt="foto2">
+            <video src="trailer.mp4" controls>
+        </video>
+    </section>
+    <!--Una taula amb el colspan i rowspan-->
+    <section id="valoracions">
+            <h2>Pel·lícules de Shrek i la seva valoració</h2>
+            <table border="1" cellpadding="10">
+                <thead>
+                    <tr>
+                        <th>Pel·lícula</th>
+                        <th>Any</th>
+                        <th colspan="2">Valoració</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Shrek</td>
+                        <td>2001</td>
+                        <td rowspan="2">Rotten Tomatoes</td>
+                        <td>88%</td>
+                    </tr>
+                    <tr>
+                        <td>Shrek 2</td>
+                        <td>2004</td>
+                        <td>89%</td>
+                    </tr>
+                    <tr>
+                        <td>Shrek 3</td>
+                        <td>2007</td>
+                        <td rowspan="2">IMDb</td>
+                        <td>6.1/10</td>
+                    </tr>
+                    <tr>
+                        <td>Shrek: "Felices para siempre"</td>
+                        <td>2010</td>
+                        <td>6.3/10</td>
+                    </tr>
+                </tbody>
+            </table> 
+    </section>
+    <!--Aqui esta el formulari demanant la opinio al usuari-->
+    <section id="opinio">
+        <h2>Deixa la teva opinio</h2>
+        <form action="#" method="post">
+            <label for="nom">Nom:</label>
+            <input type="nom" id="nom" name="nom" required>
+
+            <label for="email">Correu Electrònic:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="valoracio">Valoracio:</label>
+            <select id="valoracio" name="valoracio">
+                <option value="1">Dolenta</option>
+                <option value="2">Regular</option>
+                <option value="3">Bona</option>
+                <option value="4">Molt Bona</option>
+                <option value="5">Excelent</option>
+            </select>
+
+            <label for="opinio">Opinio:</label>
+            <textarea id="opinio" name="opinio" required></textarea>
+
+            <button type="submit">Enviar Opinio</button>
+        </form>
+    </section>
+    <!--Per ultim hi han enllaços a altres pagines web-->
+    <section id="webs">
+        <h2>Webs</h2>
+        <ul>
+            <li><a href="https://www.sensacine.com/peliculas/pelicula-27415/noticias/" target="_blank">Sensacine</a></li>
+            <li><a href="https://shrek.fandom.com/es/wiki/Shrek_Wiki" target="_blank">Shrek Wiki</a></li>
+        </ul>
+    </section>
+
+
+    <footer>
+    </footer>
+</body>
+</html>
